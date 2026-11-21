@@ -6,10 +6,10 @@ color 0b
 echo ========================================================
 echo  DUBEM LUXURY BOUTIQUE - GITHUB PRODUCTION PUSH
 echo ========================================================
-echo Target Repository: git@github.com:Emmanuelace10/nobless.git
+echo Target Repository: https://github.com/Emmanuelace10/dubs.git
 echo Author: Emmanuelace10 (abiakamace@gmail.com)
 echo.
-echo Attempting git push via SSH...
+echo Attempting git push...
 git push -u origin main
 
 if %ERRORLEVEL% equ 0 (
@@ -23,9 +23,9 @@ if %ERRORLEVEL% equ 0 (
 
 echo.
 echo ========================================================
-echo  NOTE: If SSH publickey failed, you can also push via HTTPS token:
+echo  NOTE: If asked for credentials, you can also push via token:
 echo ========================================================
-echo Paste a GitHub Personal Access Token (ghp_...) to push via HTTPS:
+echo Paste your GitHub Personal Access Token (ghp_...) to push directly:
 echo (Or press Enter to exit):
 echo.
 set /p "PAT=Paste GitHub Token: "
@@ -33,11 +33,11 @@ set /p "PAT=Paste GitHub Token: "
 if defined PAT (
     echo.
     echo Pushing with Personal Access Token...
-    git push https://!PAT!@github.com/Emmanuelace10/nobless.git main
+    git push https://!PAT!@github.com/Emmanuelace10/dubs.git main
     if !ERRORLEVEL! equ 0 (
         echo.
         echo ========================================================
-        echo  SUCCESS: Pushed to https://github.com/Emmanuelace10/nobless.git!
+        echo  SUCCESS: Pushed to https://github.com/Emmanuelace10/dubs.git!
         echo ========================================================
     )
 )
