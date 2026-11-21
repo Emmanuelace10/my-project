@@ -1,0 +1,7 @@
+# Vercel deployment exclusions
+server.ps1
+*.ps1
+scratch/
+.git/
+.DS_Store
+Thumbs.db

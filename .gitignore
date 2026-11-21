@@ -1,0 +1,11 @@
+# Dependencies & build
+node_modules/
+.vercel/
+
+# OS & environment
+.DS_Store
+Thumbs.db
+*.log
+
+# Local scratch directory
+scratch/
