@@ -6,10 +6,10 @@ color 0b
 echo ========================================================
 echo  DUBEM LUXURY BOUTIQUE - GITHUB PRODUCTION PUSH
 echo ========================================================
-echo Target Repository: https://github.com/Emmanuelace10/dd-boutiques.git
+echo Target Repository: git@github.com:Emmanuelace10/dd-boutiques.git
 echo Author: Emmanuelace10 (abiakamace@gmail.com)
 echo.
-echo Attempting git push...
+echo Attempting git push via SSH...
 git push -u origin main
 
 if %ERRORLEVEL% equ 0 (
@@ -23,26 +23,22 @@ if %ERRORLEVEL% equ 0 (
 
 echo.
 echo ========================================================
-echo  NOTE: GitHub requires authentication to write to your repo.
+echo  NOTE: If SSH publickey failed, you can also push via HTTPS token:
 echo ========================================================
-echo If you have a GitHub Personal Access Token (starts with ghp_),
-echo paste it below and press Enter to push automatically.
-echo (Or press Enter with no token to exit):
+echo Paste a GitHub Personal Access Token (ghp_...) to push via HTTPS:
+echo (Or press Enter to exit):
 echo.
-set /p "PAT=Paste GitHub Token (ghp_...): "
+set /p "PAT=Paste GitHub Token: "
 
 if defined PAT (
     echo.
-    echo Pushing with provided Personal Access Token...
+    echo Pushing with Personal Access Token...
     git push https://!PAT!@github.com/Emmanuelace10/dd-boutiques.git main
     if !ERRORLEVEL! equ 0 (
         echo.
         echo ========================================================
         echo  SUCCESS: Pushed to https://github.com/Emmanuelace10/dd-boutiques.git!
         echo ========================================================
-    ) else (
-        echo.
-        echo Push failed. Please verify that your token has 'repo' scope.
     )
 )
 
