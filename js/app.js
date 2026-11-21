@@ -19,6 +19,128 @@ const DEFAULT_PRODUCTS = [
     location: '19 Nwaturocha Front Window Showcase',
     description: 'Special edition low-top silhouette featuring rich midnight navy blue suede overlays, clean white leather toe box, reflective metallic silver Swoosh, and infrared Jumpman embroidery. Front page flagship spotlight — ₦60,000 in Nigerian Naira.'
   },
+
+  // --- EXECUTIVE FOOTWEAR COLLECTION (FLAT ₦80,000 EACH IN NAIRA) ---
+  {
+    id: 'dl-exec-01',
+    title: 'Tom Ford Medallion Brogue Oxford "Noir Box Calfskin"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/oxford_tom_ford_black_brogue.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 5,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Masterfully crafted wholecut closed-lacing Oxford in mirror-polished noir box calfskin. Features bespoke medallion perforation at the toe, Goodyear welted construction, and the signature orange-embossed Tom Ford seal on the hand-finished leather sole. Flat ₦80,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-exec-02',
+    title: 'Tom Ford Burnished Brogue Oxford "Espresso Cognac"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/oxford_tom_ford_espresso_brogue.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 4,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Bespoke hand-patinated espresso brown calf leather with rich burnished undertones. Hand-punched brogue detailing, chiseled silhouette, Goodyear welted leather sole with Tom Ford emblem, and stacked leather heel. Flat ₦80,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-exec-03',
+    title: 'Richwanaz Milano Handcrafted Derby "Black Calfskin & Gold Accent"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/derby_richwanaz_black_calfskin.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 5,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Ultra-luxe Italian-cut black calfskin derby with open lacing, signature gold-tone architectural emblem on the lateral heel, and storm-welted micro-lug sole. Includes pair of spring-loaded cedar shoe trees and dust sleeves. Flat ₦80,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-exec-04',
+    title: 'Gucci Croc-Embossed Lug Penny Loafer "Noir Leather"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/loafer_gucci_croc_lug_sole.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 5,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Bold executive statement loafer in genuine crocodile-embossed noir black leather with classic penny saddle strap and heavy-duty commando lug sole. Delivered in signature Gucci emerald presentation box. Flat ₦80,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-exec-05',
+    title: 'Salvatore Ferragamo Lug Penny Loafer "Burnished Cognac"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/loafer_ferragamo_burnished_brown.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 6,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Artisanal Italian burnished cognac brown calf leather with hand-stitched apron, penny strap, and polished gold-tone Ferragamo script logo plaque on the cleated lug sole. Pure boardroom sophistication. Flat ₦80,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-exec-06',
+    title: 'Gucci Patent Platform Lug Derby "Noir Gloss"',
+    category: 'executive',
+    isNewArrival: true,
+    price: 80000,
+    image: 'assets/images/derby_gucci_patent_lug_sole.jpg',
+    badge: 'Executive Formal • ₦80,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 4,
+    location: '19 Nwaturocha Executive Suite',
+    description: 'Avant-garde formal derby in high-gloss mirror-finish black patent leather. Features 4-eyelet waxed lacing, ribbed rubber bumper platform sole with aggressive traction, and Gucci green boutique packaging. Flat ₦80,000 each in Nigerian Naira.'
+  },
+
+  // --- AVANT-GARDE & LUXURY SLIDES COLLECTION (FLAT ₦25,000 EACH IN NAIRA) ---
+  {
+    id: 'dl-slide-16',
+    title: 'Off-Grid Striped Platform Foam Clogs',
+    category: 'slides',
+    isNewArrival: true,
+    price: 25000,
+    image: 'assets/images/clog_striped_foam_platform.jpg',
+    badge: 'Avant-Garde Clog • ₦25,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 6,
+    location: '19 Nwaturocha Footwear Salon',
+    description: 'Sculptural chunky foam platform clogs featuring contrast horizontal ribbed racing stripes, pivoting heel strap with security button, and textured footbed. ₦25,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-slide-17',
+    title: 'Zara Man Criss-Cross Leather Slide "Noir & Tan"',
+    category: 'slides',
+    isNewArrival: true,
+    price: 25000,
+    image: 'assets/images/slide_zara_crisscross_black_tan.jpg',
+    badge: 'Minimalist Leather • ₦25,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 6,
+    location: '19 Nwaturocha Footwear Salon',
+    description: 'Wide overlapping smooth black leather crossover straps with padded tan calfskin insole and vulcanized rubber sole. ₦25,000 each in Nigerian Naira.'
+  },
+  {
+    id: 'dl-slide-18',
+    title: 'Textured 3-Stripe Perforated Foam Clogs "Noir"',
+    category: 'slides',
+    isNewArrival: true,
+    price: 25000,
+    image: 'assets/images/clog_textured_3stripe_perforated.jpg',
+    badge: 'Waterproof Clog • ₦25,000',
+    sizes: ['40', '41', '42', '43', '44', '45'],
+    stock: 6,
+    location: '19 Nwaturocha Footwear Salon',
+    description: 'Micro-diamond textured breathable molded EVA clogs with perforated vamp, contrast diagonal 3-stripe racing accents, and adjustable swivel heel strap. ₦25,000 each in Nigerian Naira.'
+  },
+
   // --- NEW SARTORIAL ARRIVALS (28 EXCLUSIVE DROPS • ₦25,000 - ₦45,000) ---
   {
     id: 'dl-new-01',
@@ -1029,116 +1151,6 @@ const DEFAULT_PRODUCTS = [
     stock: 7,
     location: '19 Nwaturocha Footwear Salon',
     description: 'Matte black nubuck dual velcro strap comfort recovery slides with shock-absorbing platform sole. ₦25,000 in Nigerian Naira.'
-  },
-  {
-    id: 'dl-slide-16',
-    title: 'Off-Grid Striped Platform Foam Clogs',
-    category: 'slides',
-    price: 25000,
-    image: 'assets/images/clog_striped_foam_platform.jpg',
-    badge: 'Avant-Garde Clog • ₦25,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 6,
-    location: '19 Nwaturocha Footwear Salon',
-    description: 'Sculptural chunky foam platform clogs featuring contrast horizontal ribbed racing stripes, pivoting heel strap with security button, and textured footbed. ₦25,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-slide-17',
-    title: 'Zara Man Criss-Cross Leather Slide "Noir & Tan"',
-    category: 'slides',
-    price: 25000,
-    image: 'assets/images/slide_zara_crisscross_black_tan.jpg',
-    badge: 'Minimalist Leather • ₦25,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 6,
-    location: '19 Nwaturocha Footwear Salon',
-    description: 'Wide overlapping smooth black leather crossover straps with padded tan calfskin insole and vulcanized rubber sole. ₦25,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-slide-18',
-    title: 'Textured 3-Stripe Perforated Foam Clogs "Noir"',
-    category: 'slides',
-    price: 25000,
-    image: 'assets/images/clog_textured_3stripe_perforated.jpg',
-    badge: 'Waterproof Clog • ₦25,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 6,
-    location: '19 Nwaturocha Footwear Salon',
-    description: 'Micro-diamond textured breathable molded EVA clogs with perforated vamp, contrast diagonal 3-stripe racing accents, and adjustable swivel heel strap. ₦25,000 each in Nigerian Naira.'
-  },
-
-  // --- EXECUTIVE FOOTWEAR COLLECTION (FLAT ₦80,000 EACH IN NAIRA) ---
-  {
-    id: 'dl-exec-01',
-    title: 'Tom Ford Medallion Brogue Oxford "Noir Box Calfskin"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/oxford_tom_ford_black_brogue.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 5,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Masterfully crafted wholecut closed-lacing Oxford in mirror-polished noir box calfskin. Features bespoke medallion perforation at the toe, Goodyear welted construction, and the signature orange-embossed Tom Ford seal on the hand-finished leather sole. Flat ₦80,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-exec-02',
-    title: 'Tom Ford Burnished Brogue Oxford "Espresso Cognac"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/oxford_tom_ford_espresso_brogue.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 4,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Bespoke hand-patinated espresso brown calf leather with rich burnished undertones. Hand-punched brogue detailing, chiseled silhouette, Goodyear welted leather sole with Tom Ford emblem, and stacked leather heel. Flat ₦80,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-exec-03',
-    title: 'Richwanaz Milano Handcrafted Derby "Black Calfskin & Gold Accent"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/derby_richwanaz_black_calfskin.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 5,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Ultra-luxe Italian-cut black calfskin derby with open lacing, signature gold-tone architectural emblem on the lateral heel, and storm-welted micro-lug sole. Includes pair of spring-loaded cedar shoe trees and dust sleeves. Flat ₦80,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-exec-04',
-    title: 'Gucci Croc-Embossed Lug Penny Loafer "Noir Leather"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/loafer_gucci_croc_lug_sole.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 5,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Bold executive statement loafer in genuine crocodile-embossed noir black leather with classic penny saddle strap and heavy-duty commando lug sole. Delivered in signature Gucci emerald presentation box. Flat ₦80,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-exec-05',
-    title: 'Salvatore Ferragamo Lug Penny Loafer "Burnished Cognac"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/loafer_ferragamo_burnished_brown.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 6,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Artisanal Italian burnished cognac brown calf leather with hand-stitched apron, penny strap, and polished gold-tone Ferragamo script logo plaque on the cleated lug sole. Pure boardroom sophistication. Flat ₦80,000 each in Nigerian Naira.'
-  },
-  {
-    id: 'dl-exec-06',
-    title: 'Gucci Patent Platform Lug Derby "Noir Gloss"',
-    category: 'executive',
-    price: 80000,
-    image: 'assets/images/derby_gucci_patent_lug_sole.jpg',
-    badge: 'Executive Formal • ₦80,000',
-    sizes: ['40', '41', '42', '43', '44', '45'],
-    stock: 4,
-    location: '19 Nwaturocha Executive Suite',
-    description: 'Avant-garde formal derby in high-gloss mirror-finish black patent leather. Features 4-eyelet waxed lacing, ribbed rubber bumper platform sole with aggressive traction, and Gucci green boutique packaging. Flat ₦80,000 each in Nigerian Naira.'
   }
 ];
 
