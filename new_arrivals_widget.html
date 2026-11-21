@@ -82,7 +82,7 @@
       carousel.innerHTML = filtered.map(item => `
         <div class="flex-none w-[170px] sm:w-[190px] bg-[var(--card)] border border-[var(--border)] hover:border-[var(--accent)] rounded-2xl p-2.5 transition-all duration-200 flex flex-col justify-between">
           <div class="relative overflow-hidden rounded-xl aspect-[4/5] mb-2 bg-[var(--background)]">
-            <img src="${item.id}" onerror="this.onerror=null; this.src='assets/images/' + '${item.id}'" alt="${item.title}" class="w-full h-full object-cover rounded-xl" loading="lazy">
+            <img src="assets/images/${item.id}" onerror="this.onerror=null; this.src='${item.id}'" alt="${item.title}" class="w-full h-full object-cover rounded-xl" loading="lazy">
             <span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-md bg-black/75 backdrop-blur-md text-[9px] font-bold text-amber-300 border border-amber-400/20">${item.tag}</span>
           </div>
           <div>
