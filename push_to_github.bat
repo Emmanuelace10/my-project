@@ -6,7 +6,7 @@ color 0b
 echo ========================================================
 echo  DUBEM LUXURY BOUTIQUE - GITHUB PRODUCTION PUSH
 echo ========================================================
-echo Target Repository: https://github.com/Emmanuelace10/dubs.git
+echo Target Repository: https://github.com/Emmanuelace10/my-project.git
 echo Author: Emmanuelace10 (abiakamace@gmail.com)
 echo.
 echo Attempting git push...
@@ -33,11 +33,11 @@ set /p "PAT=Paste GitHub Token: "
 if defined PAT (
     echo.
     echo Pushing with Personal Access Token...
-    git push https://!PAT!@github.com/Emmanuelace10/dubs.git main
+    git push https://!PAT!@github.com/Emmanuelace10/my-project.git main
     if !ERRORLEVEL! equ 0 (
         echo.
         echo ========================================================
-        echo  SUCCESS: Pushed to https://github.com/Emmanuelace10/dubs.git!
+        echo  SUCCESS: Pushed to https://github.com/Emmanuelace10/my-project.git!
         echo ========================================================
     )
 )
