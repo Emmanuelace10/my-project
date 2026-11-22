@@ -2342,26 +2342,3 @@ class DubemBoutiqueApp {
 document.addEventListener('DOMContentLoaded', () => {
   window.dubemApp = new DubemBoutiqueApp();
 });
-
-// Global Lightbox Functions for Flagship Facade
-function openStorefrontLightbox() {
-  const modal = document.getElementById('storefrontLightbox');
-  if (modal) {
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-  }
-}
-
-function closeStorefrontLightbox() {
-  const modal = document.getElementById('storefrontLightbox');
-  if (modal) {
-    modal.style.display = 'none';
-    document.body.style.overflow = '';
-  }
-}
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    closeStorefrontLightbox();
-  }
-});
