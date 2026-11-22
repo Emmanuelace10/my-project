@@ -4,8 +4,7 @@
   "description": "Dubem Luxury Boutique Flagship — No. 19 Nwaturocha Street, Ikenegbu, Owerri, Imo State",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "build": "echo 'Dubem Luxury Boutique static build verified for Vercel'"
+    "start": "npx serve ."
   },
   "keywords": [
     "dubem-boutique",
